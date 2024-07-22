@@ -1,16 +1,13 @@
 {
-  "name": "rabbitmq",
+  "name": "rabbitmq-consumer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "consumer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node consumer.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "amqplib": "^0.10.4",
-    "node-schedule": "^2.1.1"
+    "amqplib": "^0.8.0",
+    "node-schedule": "^2.0.0"
   }
 }
+
